@@ -1,0 +1,1 @@
+diff -y --width=200 <(unzip -l nome_pacote1.war | grep jar | awk -F" " '{ print $4 }' | sort) <(unzip -l nome_pacote2.war | grep jar | awk -F" " '{ print $4 }' | sort)
